@@ -9,6 +9,13 @@ body, html {
     background-repeat: repeat-x;
     animation: birdAnimation 60s linear infinite; /* Adjust duration as needed */
 }
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
 
 .container {
     display: flex;
@@ -21,6 +28,8 @@ body, html {
 h1 {
     margin-bottom: 30px;
     color: white;
+    font-size:26px;
+    padding: 5px;
 }
 
 .button-container {
